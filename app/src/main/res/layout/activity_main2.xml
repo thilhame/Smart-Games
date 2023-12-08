@@ -30,5 +30,4 @@
         app:layout_constraintBottom_toBottomOf="@+id/img_padrao"
         app:layout_constraintEnd_toEndOf="@+id/img_padrao"
         app:layout_constraintStart_toStartOf="@+id/img_padrao" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
