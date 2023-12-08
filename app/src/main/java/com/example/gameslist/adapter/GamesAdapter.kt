@@ -35,6 +35,9 @@ class GamesAdapter(
             intent.putExtra("name",produtos[position].nome)
             intent.putExtra("price",produtos[position].preco)
             intent.putExtra("description",produtos[position].descricao)
+            intent.putExtra("plataforma",produtos[position].plataformas)
+            intent.putExtra("lojas",produtos[position].lojas)
+            intent.putExtra("id",produtos[position].id)
             context.startActivity(intent)
         }
 
