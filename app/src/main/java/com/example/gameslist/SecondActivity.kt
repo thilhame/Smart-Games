@@ -38,7 +38,6 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun initRecycler(){
-
         val listaGames = binding.rvGames
         listaGames.layoutManager = LinearLayoutManager(applicationContext)
         listaGames.setHasFixedSize(true)
